@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Encuesta</title>
+    <!-- Incluir Bootstrap CSS -->
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Incluir tu archivo CSS personalizado -->
+    <link rel="stylesheet" href="encuesta1.css" />
+    <style>
+      body {
+        background: linear-gradient(45deg, #add8e6, #ffffff);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0;
+        padding: 0;
+        height: fit-content;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .shadow {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      }
+
+      .mt-4 {
+        margin-top: 1.5rem;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="">
+      <div
+        class="container-fluid h-100 d-flex align-items-center justify-content-center"
+        style="
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          color: rgb(72, 77, 93);
+        "
+      >
+        <div class="row justify-content-center">
+          <div class="col-12 text-center">
+            <h1 style="font-size: 3vw">¿Cuál tema quieres?</h1>
+            <h4 style="font-size: 2vw">Para tu siguiente Termochondo</h4>
+          </div>
+        </div>
+        <div
+          class="row d-flex justify-content-between w-100"
+          style="margin: 1vh 10vh"
+        >
+          <div
+            class="col-md-4 col-sm-12 text-center"
+            style="
+              overflow: hidden;
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+              border-radius: 10px;
+            "
+          >
+            <img
+              src="../img/imagen1.jpg"
+              style="height: 400px; width: 270px; object-fit: cover"
+              class="rounded shadow"
+              alt="Imagen 1"
+            />
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="exampleRadios"
+                id="exampleRadios1"
+                value="option1"
+                checked
+              />
+              <label class="form-check-label" for="exampleRadios1">
+                One Piece
+              </label>
+            </div>
+          </div>
+          <div
+            class="col-md-4 col-sm-12 text-center"
+            style="
+              overflow: hidden;
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+              border-radius: 10px;
+            "
+          >
+            <img
+              src="../img/imagen2.jpg"
+              style="height: 400px; width: 270px; object-fit: cover"
+              class="rounded shadow"
+              alt="Imagen 2"
+            />
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="exampleRadios"
+                id="exampleRadios1"
+                value="option1"
+                checked
+              />
+              <label class="form-check-label" for="exampleRadios1">
+                Han Solo
+              </label>
+            </div>
+          </div>
+          <div
+            class="col-md-4 col-sm-12 text-center"
+            style="
+              overflow: hidden;
+              display: flex;
+              justify-content: center;
+              flex-direction: column;
+              align-items: center;
+              border-radius: 10px;
+            "
+          >
+            <img
+              src="../img/imagen3.jpg"
+              style="height: 400px; width: 270px; object-fit: cover"
+              class="rounded shadow"
+              alt="Imagen 3"
+            />
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="exampleRadios"
+                id="exampleRadios1"
+                value="option1"
+                checked
+              />
+              <label class="form-check-label" for="exampleRadios1">
+                Rapidos y Furiosos X
+              </label>
+            </div>
+          </div>
+        </div>
+        <div
+          class="row d-flex justify-content-center mt-4"
+          style="flex-direction: column"
+        >
+          <div class="text-center">
+            <a href="./encuesta2.html">
+                <button type="button" class="btn btn-outline-primary btn-lg">
+                    Siguiente
+                </button>
+            </a>
+          </div>
+          <div class="text-center mt-4">
+            <a href="../index.html">
+            <button type="button"
+              class="btn btn-outline-secondary btn-lg"
+              style="font-size: small"
+            >
+              Ninguno
+            </button></a>
+          </div>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Encuesta</title>
+    <!-- Incluir Bootstrap CSS -->
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Incluir tu archivo CSS personalizado -->
+    <link rel="stylesheet" href="encuesta1.css" />
+    <style>
+      body {
+        background: linear-gradient(45deg, #add8e6, #ffffff);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0;
+        padding: 0;
+        height: fit-content;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .shadow {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      }
+
+      .mt-4 {
+        margin-top: 1.5rem;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="">
+      <div
+        class="container-fluid h-100 d-flex align-items-center justify-content-center"
+        style="
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          color: rgb(72, 77, 93);
+        "
+      >
+        <div class="row justify-content-center">
+          <div class="col-12 text-center">
+            <h1 style="font-size: 4vw">Agregar un comentario</h1>
+          </div>
+        </div>
+        <div class="row d-flex w-100" style="margin: 15vh 10vw">
+          <div style="width: 100%">
+            <input
+              type="text"
+              class="form-control"
+              id=""
+              style="width: 100%"
+              placeholder="Escribe lo que piensas..."
+            />
+          </div>
+        </div>
+
+        <div class="row justify-content-center mt-4">
+          <div class="text-center">
+            <a href="./gracias.html">
+              <button type="button" class="btn btn-outline-primary btn-lg">
+                Siguiente
+              </button></a
+            >
+          </div>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>
