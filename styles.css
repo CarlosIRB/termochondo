@@ -714,7 +714,7 @@ a {
   pointer-events: none;
   user-select: none;
   top: 50%;
-  width: 60%;
+  width: 40%;
   right: -10px;
   transform: translateY(-45%) translateX(-80px);
   opacity: 0;
@@ -742,11 +742,10 @@ a {
     -ms-transform: translateY(-50%) translateX(-130px);
     -o-transform: translateY(-50%) translateX(-130px);
   }
-}
 
-.product-img__item img {
-  object-fit: contain;
-  object-position: center right;
+  .product-img__item{
+    width: 50%;
+  }
 }
 
 .social {
